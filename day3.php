@@ -10,8 +10,9 @@
         background-color: white;
         margin:100px;
         padding: 0px;
-        display: flex;
+        display: block;
         justify-content:center;
+        margin-left: 500px;
         align-items:center;
     }
     form{
@@ -22,6 +23,8 @@
         border-radius: 20px;
         margin-top:100px;
         z-index: 1;
+        justify-content:center;
+
 
     }
     legend{
@@ -56,7 +59,7 @@
         color:white;
     }
     p{
-        margin-top:600px;
+        margin-top:20px;
         z-index: 2;
     }
 
@@ -142,7 +145,11 @@
             case "sqrt":
                 echo " <p> Result = {$SquareRoot}  for {$num_1}</p>" ;
                 break;
+            // default:
+            // echo "enter the right info";
         }
+    
+
     }
     
     if ($num_1 ==0){
