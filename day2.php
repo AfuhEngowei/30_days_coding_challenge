@@ -43,7 +43,7 @@
         margin-right: auto;
         margin-top: auto;
         margin-left: auto;
-        width: 50%
+        width:40%;
 
     }
     input[type=submit]{
