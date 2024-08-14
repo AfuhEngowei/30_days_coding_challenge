@@ -103,8 +103,9 @@ $username = "";
     }
     $usernamelenght = strlen($username); 
     $passwordlenght = strlen($password);
-    ctype_upper($password) = false;
-    ctype_lower($password) = false;
+
+   $passwordlower= false;
+   $passwordupper= false;
 
     if($usernamelenght <= 5 || $usernamelenght >= 16){
         echo "invalid username lenght. Please the number of characters should not be less than 5 and more than 15";
@@ -112,10 +113,11 @@ $username = "";
     elseif(($username == trim($username) && strpos(($username) , ' '))){
         echo "there should be no spaces in the user name. replace them with an underscore";
     }
-    elseif()
+  
+    elseif($passwordlenght <=8 || $passwordlenght >=18){
+        echo " password must be at least 8 characters and at most 18 characters";
+    }
 
-
-    
 
     else{
         echo " <p> login successful </p>";
