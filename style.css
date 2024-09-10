@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(1, 1, 50);
+    margin: auto;
+}
+.logo{
+    color: rgb(169, 48, 4);
+    font-style:italic;
+    font-family: Arial;
+}
+li{
+    float: right;
+ 
+      
+}
+a {
+    display: block;
+    padding: 8px;
+    color: #dddddd;
+    text-decoration: none;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #333; */
+  }
+  li a:hover {
+    background-color: #111;
+  }  
